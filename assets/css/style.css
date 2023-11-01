@@ -132,3 +132,15 @@ font-size: 3rem;
      max-width: 500px;
 }
 /* end stuff */
+
+/* start team */
+.team{
+    background-color: var(--section-color);
+}
+.team .title{
+    color: var(--yellow-color);
+}
+.team h4{
+    background-color: var(--green-color);
+}
+/* end team */
