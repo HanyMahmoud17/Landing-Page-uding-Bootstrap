@@ -1,0 +1,88 @@
+:root{
+    --dark-color: #19283f;
+    --green-color: #33d1cc;
+    --red-color: #ff3150;
+    --yellow-color: #ffc400;
+    --section-color: #eff7fa;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 10000px;
+}
+.main-btn{
+    background-color: var(--red-color);
+    color: var(--yellow-color);
+    padding: 0.5rem 1rem;
+}
+.main-btn:hover{
+    color: var(--yellow-color); 
+}
+/* start class navbar */
+.navbar{
+    background-color: var(--dark-color);
+}
+.navbar .navbar-nav .nav-link{
+    color: white;
+}
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover{
+color: var(--green-color);
+}
+.navbar .search{
+    border-left: 1px solid var(--green-color);
+    color: white;
+
+}
+.navbar .navbar-toggler{
+    border: 1px solid var(--green-color);
+    color: white;
+    font-size: 25px;
+}
+.navbar .navbar-toggler:focus{
+    box-shadow: none;
+}
+
+/* end class navbar */
+
+/* start landing section */
+.landing{
+    background-color: var(--dark-color);
+    min-height: calc(100vh - 72px);
+}
+/* end landing section */
+
+/* start features section */
+
+.main-title::after{
+    content: '';
+    width: 160px;
+    height: 2px;
+    bottom: -20px; 
+    background-color: var(--dark-color);
+    left: 50%;
+    transform: translateX(-50%);
+    /* border-bottom: 1px solid var(--dark-color); */
+    position: absolute;
+}
+.features .icon-holder{
+height: 200px;
+}
+.features .icon-holder svg{
+    left: 50%;
+    transform: translateX(-50%);
+}
+.features .icon-holder .number{
+    color: var(--section-color);
+    font-size: 12rem;
+}
+.features .icon-holder .icon{
+color: var(--green-color);
+font-size: 3rem;
+}
+.features .feat h4{
+    color: var(--yellow-color);
+}
+/* end features section */
