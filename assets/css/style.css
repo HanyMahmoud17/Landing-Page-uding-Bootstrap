@@ -144,3 +144,9 @@ font-size: 3rem;
     background-color: var(--green-color);
 }
 /* end team */
+
+/* start style of start project section */
+.start_project{
+    background-color: var(--dark-color);
+}
+/* end style of start project section */
