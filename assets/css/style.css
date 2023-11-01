@@ -150,3 +150,28 @@ font-size: 3rem;
     background-color: var(--dark-color);
 }
 /* end style of start project section */
+
+/* subscribe section  */
+    .subscribe{
+        background-color: var(--yellow-color);
+    }
+    .subscribe input[type="email"]{
+        border: none;
+        border-bottom: 1px solid white;
+    }
+    .subscribe input[type="text"]:focus{
+       outline: none;
+    }
+    .subscribe ::placeholder{
+        color: white;
+    }
+    .subscribe input[type="submit"]{
+        background-color: var(--dark-color);
+        color: var(--yellow-color);
+    }
+    @media (max-width: 576px){
+        .subscribe .inputEmail{
+            margin-bottom: 10px;
+        }
+    }
+/* subscribe section  */
