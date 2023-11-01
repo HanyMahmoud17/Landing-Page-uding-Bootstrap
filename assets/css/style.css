@@ -126,3 +126,9 @@ font-size: 3rem;
     transform: translateX(0);
 }
 /* end our_work section */
+
+/* start stuff */
+.stuff .description{
+     max-width: 500px;
+}
+/* end stuff */
