@@ -9,7 +9,6 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    height: 10000px;
 }
 .main-btn{
     background-color: var(--red-color);
@@ -175,3 +174,31 @@ font-size: 3rem;
         }
     }
 /* subscribe section  */
+
+/* footer section */
+.footer{
+    background-color: var(--dark-color);
+}
+.footer .footerText{
+    color: var(--yellow-color);
+}
+.footer .myEmail{
+    background-color: var(--red-color);
+}
+.footer ul svg{
+    width: 20px;
+    height: 20px;
+}
+.footer .facebook{
+    background-color: #1877f2;
+}
+.footer .twitter{
+    background-color: #1da1f2;
+}
+.footer .linkedin{
+    background-color: #0077b5;
+}
+.footer .youtube{
+    background-color: #ff0000;
+}
+/* footer section */
