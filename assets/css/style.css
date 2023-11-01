@@ -86,3 +86,43 @@ font-size: 3rem;
     color: var(--yellow-color);
 }
 /* end features section */
+
+/* start our_work section */
+.our_work {
+    background-color: var(--section-color);
+}
+.our_work ul .active{
+    background-color: var(--red-color);
+    color: var(--yellow-color);
+    border-radius: 10px;
+}
+.our_work ul li{
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+.our_work ul li:not(.active):hover{
+    color: var(--red-color);
+}
+.our_work .box{
+    padding: 5px;
+    overflow: hidden;
+    position: relative;
+}
+.our_work .box::before{
+    content: attr(data-work);
+    position: absolute;
+    font-size: 1.2rem;
+    color: white;
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(51 209 204 / 76%);
+    transition: 0.3s;
+    transform: translateX(calc(-100% - 5px));
+}
+.our_work .box:hover::before{
+    transform: translateX(0);
+}
+/* end our_work section */
